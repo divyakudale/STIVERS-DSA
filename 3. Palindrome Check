@@ -45,14 +45,13 @@ class Solution {
                 int lt =y%10;
                 y/=10;
                 reversedigit = (reversedigit *10) +lt;
-                
             }
-
         }
 
         if(reversedigit!=originalnumber){
             return false;
         }
         return true;
+
     }
 }
